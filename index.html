@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DevRenov - Rénovation Bâtiment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+    }
+    nav a:hover {
+      background-color: #2c3e50;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-bottom: 1rem;
+    }
+    .portfolio img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+    .portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .avis {
+      background-color: #ecf0f1;
+      padding: 1rem;
+      border-left: 5px solid #3498db;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    form {
+      display: grid;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.5rem;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>DevRenov</h1>
+  <p>Rénovation de bâtiments - Professionnalisme, qualité et savoir-faire</p>
+</header>
+
+<nav>
+  <a href="#services">Services</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#avis">Avis</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+  <h2>Nos services</h2>
+  <ul>
+    <li>Rénovation intérieure et extérieure</li>
+    <li>Travaux de maçonnerie, peinture, plomberie, électricité</li>
+    <li>Aménagement de combles et isolation</li>
+    <li>Rénovation de cuisines et salles de bains</li>
+    <li>Intervention rapide et devis gratuit</li>
+  </ul>
+</section>
+
+<section id="portfolio">
+  <h2>Nos réalisations</h2>
+  <div class="portfolio">
+    <img src="https://via.placeholder.com/300x200?text=Chantier+1" alt="Chantier 1">
+    <img src="https://via.placeholder.com/300x200?text=Chantier+2" alt="Chantier 2">
+    <img src="https://via.placeholder.com/300x200?text=Chantier+3" alt="Chantier 3">
+  </div>
+</section>
+
+<section id="avis">
+  <h2>Ce que disent nos clients</h2>
+  <div class="avis">“Un travail impeccable et une équipe très professionnelle !” – Sophie L.</div>
+  <div class="avis">“Je recommande DevRenov pour tous vos travaux de rénovation.” – Karim M.</div>
+  <div class="avis">“Respect des délais et super qualité. Merci encore !” – Claire B.</div>
+</section>
+
+<section id="contact">
+  <h2>Contactez-nous</h2>
+  <p><strong>Email :</strong> contact@devrenov.fr</p>
+  <p><strong>Téléphone :</strong> 06 12 34 56 78</p>
+  <p><strong>Adresse :</strong> 123 rue des Artisans, 75000 Paris</p>
+
+  <h3>Formulaire de contact</h3>
+  <form
+  action="https://formspree.io/f/mjkrwrnj"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+</section>
+
+<footer>
+  <p>&copy; 2025 DevRenov. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
